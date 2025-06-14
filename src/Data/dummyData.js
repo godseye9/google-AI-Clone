@@ -63,3 +63,38 @@ export const navItems = [
   { label: "History", icon: <Clock className="h-5 w-4" /> },
   { label: "Enable saving", icon: <Puzzle className="rotate-45 h-5 w-4" /> },
 ];
+
+export const menus = {
+  Models: [
+    { title: "Gemini", links: ["About", "Docs", "API reference", "Pricing"] },
+    { title: "Imagen", links: ["About", "Docs", "Pricing"] },
+    { title: "Veo", links: ["About", "Docs", "Pricing"] },
+    { title: "Gemma", links: ["About", "Docs", "Gemmaverse"] },
+  ],
+  Solutions: [
+    { title: "Developers", links: ["Overview", "API access", "SDKs"] },
+    { title: "Enterprises", links: ["Enterprise AI", "Pricing", "Security"] },
+  ],
+  "Code Assistance": [
+    {
+      title: "",
+      links: [
+        "Android Studio",
+        "Chrome DevTools",
+        "Colab",
+        "Firebase",
+        "Google Cloud",
+        "JetBrains",
+        "Jules",
+        "VS Code",
+      ],
+    },
+  ],
+  Showcase: [
+    {
+      title: "",
+      links: ["Gemini Showcase", "Gemini API Developer Competition"],
+    },
+  ],
+  Community: [{ title: "", links: ["Google AI Forum", "Gemini for Research"] }],
+};

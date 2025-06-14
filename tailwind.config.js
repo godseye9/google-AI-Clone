@@ -10,6 +10,15 @@ module.exports = {
       fontFamily: {
         google: ['"Google Sans"', "Arial", "Helvetica", "sans-serif"],
       },
+      keyframes: {
+        dropdown: {
+          "0%": { opacity: 0, transform: "translateY(-10px)" },
+          "100%": { opacity: 1, transform: "translateY(0)" },
+        },
+      },
+      animation: {
+        "dropdown-in": "dropdown 500ms ease-out forwards",
+      },
     },
   },
   plugins: [],
