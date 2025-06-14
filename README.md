@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### Install node modules
+
+Run npm i command to install all the necessary node modules
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -13,6 +17,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+# 🛠️ React Sign-In Redirect App
+
+This is a simple React application demonstrating how to redirect a user from the **Home page** to the **Dashboard** after clicking a **Sign In** button. It's built with **React**, and **React Router**.
+
+---
+
+## ✨ Features
+
+- 📍 Home page with Sign In button
+- 🔀 Navigation using React Router
+- 🧭 Redirect to dashboard on click
+
+---
 
 ### `npm test`
 
