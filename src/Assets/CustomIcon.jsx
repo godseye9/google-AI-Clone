@@ -1,5 +1,3 @@
-import React from "react";
-
 const MyCustomIcon = ({ className = "", ...props }) => (
   <svg
     width="29"
