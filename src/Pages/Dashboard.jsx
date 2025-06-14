@@ -91,6 +91,7 @@ const Dashboard = () => {
         <SettingsPanel />
         <div className="flex flex-col items-center space-y-1 pl-2 pr-2">
           <img
+            alt="settings"
             src={settings}
             style={{ width: "32px", paddingBottom: "16px" }}
           />

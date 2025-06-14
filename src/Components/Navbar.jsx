@@ -17,7 +17,7 @@ const Navbar = () => {
     <div>
       <header className="flex items-center justify-between px-6 py-4 pt-2 pb-2 bg-white text-sm text-grayCustom">
         <div className="flex items-center">
-          <img src={googleAI} className="w-48" />
+          <img alt="icon" src={googleAI} className="w-48" />
           <nav className="hidden md:flex ">
             {NavList.map((item) => (
               <div className="pl-4 md:flex items-center space-x-0.5 group">

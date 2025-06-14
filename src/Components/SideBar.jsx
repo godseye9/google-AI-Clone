@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { ChevronRight, ChevronLeft } from "lucide-react";
 import { navItems } from "../Data/dummyData";
 
